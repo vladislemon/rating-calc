@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BlazarUtils:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/BlazarUtils_jar</output-path>
+    <root id="archive" name="BlazarUtils.jar">
+      <element id="module-output" name="BlazarUtils" />
+    </root>
+  </artifact>
+</component>

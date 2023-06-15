@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<title>BLAZAR - Браузерная космическая стратегия</title>
+	<meta name="keywords" content="blazar, браузерная стратегия, космическая стратегия, блазар, браузерная игра, космическая онлайн игра, космическая браузерная стратегия, космическая mmorpg, браузерная космическая игра, бесплатная браузерная стратегия, онлайн стратегия, стратегия, лучшая космическая игра" />
+	<meta name="description" content="BLAZAR - браузерная игра в жанре космической стратегии. Захватывающие битвы, множество альянсов, нескончаемый игровой мир, тысячи противников ждут вас!" />
+	<link rel="stylesheet" href="/css/main.v6.css" type="text/css" media="all" />
+	<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="image_src" href="http://blazar.ru/images/game_image.png" />
+	<script type="text/javascript">
+		if (window.top !== window.window) {
+			window.top.location.href = '/login.php';
+		}
+	</script>
+	<script type="text/javascript" src="/scripts/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.placeholder.v7.js"></script>
+	<script type="text/javascript" src="/scripts/preloadCssImages.jQuery_v5.js"></script>
+	<script type="text/javascript" src="http://vkontakte.ru/js/api/openapi.js"></script>
+	<script type="text/javascript" src="http://cdn.connect.mail.ru/js/loader.js"></script>
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+	  {lang: 'ru'}
+	</script>
+	<script type="text/javascript" src="/scripts/main.v13.js"></script>
+</head>
+<body>
+	<div class="logo">
+		<img alt="BLAZAR - Браузерная космическая стратегия" src="/images/logo.png" />
+	</div>
+	<div class="right">
+		<div class="middle">
+			<div class="text">
+				<h1>BLAZAR - это браузерная игра в жанре космическая стратегия</h1>
+
+				<p>Захватывающие битвы, множество альянсов, нескончаемый игровой мир, тысячи противников,
+				-&nbsp;это неполный список того, что вам предстоит испытать на себе в космической стратегии BLAZAR.</p>
+
+				<p>Завоёвывайте планеты, покоряйте галактики, создайте нерушимый альянс сильнейших игроков Рунета!
+				Сойдитесь в неравной космической битве со своими противниками, окунувшись в зрелищный 
+				и захватывающий мир BLAZAR!</p>
+				
+				<div id="reg_button"><img id="reg" alt="Регистрация" src="/images/reg_button.png" /></div>
+			</div>
+		</div>
+	</div>
+	<div class="left">
+		<div class="middle">
+			<div class="loginform">
+				<div class="login">Вход в игру:</div>
+				 
+				<div class="login-inputs">
+					<form action="?do=login" method="post">
+						<div>
+							<input class="input-text" name="username" placeholder="Логин" value="" type="text" />
+							<input class="input-text" name="password" placeholder="Пароль" value="" type="password" />
+							<input class="input-submit" type="submit" value="" />
+						</div>
+					</form>
+				</div>
+				<div class="lost-pass"><a id="lost-pass-link" href="#" title="Восстановление пароля">Забыли?</a></div>
+				<div id="lost-pass-form">
+					<div class="lost-pass-h">Восстановление пароля</div>
+					<p>Введите email, который вы использовали при регистрации, после чего ждите письмо.</p>
+					<form id="lost-pass-form-tag" action="?do=lostpass" method="post">
+						<div class="lost-form">
+							<input id="input-lost" name="email" value="" placeholder="Ваш email" type="text" />
+							<input id="input-send" type="submit" value="" />
+						</div>
+					</form>
+					<div id="lost-msg"></div>
+				</div>
+				<div class="sm">
+					<img id="vk-login" alt="Вход через ВКонтакте" src="/images/vk_login.gif"/>
+					<img id="mailru-login" alt="Вход через @mail.ru" src="/images/mailru_login_text.png"/>
+					<!-- <div id="mailru-login">Войти с</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="smm">
+		<div class="smm-btn first">
+			<a target="_blank" class="mrc__plugin_uber_like_button" href="http://connect.mail.ru/share?share_url=http%3A%2F%2Fblazar.ru" data-mrc-config="{'cm' : '1', 'ck' : '1', 'sz' : '20', 'st' : '2', 'tp' : 'combo'}">Нравится</a><script src="http://cdn.connect.mail.ru/js/loader.js" type="text/javascript" charset="UTF-8"></script>
+		</div>
+		<div class="smm-btn">
+			<div id="vk_like" style="margin-left: -75px;"></div>
+		</div>
+		<div class="smm-btn">
+			<iframe src="http://www.facebook.com/plugins/like.php?app_id=227391617298644&amp;href=http%3A%2F%2Fblazar.ru&amp;send=false&amp;layout=button_count&amp;width=173&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:173px; height:21px; margin-left: -23px;" allowTransparency="true"></iframe>
+		</div>
+		<div class="smm-btn">
+			<div style="margin-left: -61px;"><g:plusone size="medium" href="http://blazar.ru"></g:plusone></div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="desk">BLAZAR - бесплатная многопользовательская браузерная онлайн-игра</div>
+		<div class="nav"><!--<a href="#" class="ajax" title="Описание игры">Об игре</a>  | --> <a href="http://forum.blazar.ru" title="Официальный форум" target="_blank">Форум</a>  |  <a href="http://vkontakte.ru/blazar" title="Официальная группа ВКонтакте" target="_blank">ВКонтакте</a>  |  <a href="http://forum.blazar.ru/viewtopic.php?id=2" title="Правила игры" target="_blank">Правила</a>  |  <a href="http://forum.blazar.ru/viewtopic.php?id=203" title="Положения" target="_blank">Положения</a></div>
+		<div class="copy">&copy; 2009 - 2014 BLAZAR.RU</div>
+	</div>
+	<div id="mask"></div>
+	<div id="reg-dialog">
+		<div class="content">
+			<div class="reg-label-shaddow">Регистрация</div>
+			<div class="reg-label">Регистрация</div>
+			<form name="reg" action="?do=reg" method="post">
+				<div id="reg-form">
+					<div class="reg-form-el">
+						<div class="label">Игровое имя:</div>
+						<input class="input-reg" id="reg-username" name="username" value="" type="text"  maxlength="22"/>
+						<span id="reg-username-msg" class="msg"></span>
+					</div>
+					<div class="reg-form-el">
+						<div class="label">Email:</div>
+						<input class="input-reg" id="reg-email" name="email" value="" type="text" />
+						<span id="reg-email-msg" class="msg"></span>
+					</div>
+					<div class="reg-form-el">
+						<div class="label">Пароль:</div>
+						<input class="input-reg" id="reg-pass" name="pass" value="" type="password" />
+						<span id="reg-pass-msg" class="msg"></span>
+					</div>
+					<div class="reg-form-el">
+						<div class="label code">Введите код:</div>
+						<div>
+							<img width="143" height="50" id="code" alt="Введите числовой код" src="/comp/reg_img/index.php">
+						</div>
+						<input class="input-reg code" id="reg-code" name="code" value="" type="text" />
+					</div>
+					<div class="reg-form-el">
+						<input id="reg-rule" type="checkbox" name="rule">
+						<label for="reg-rule">
+							Я согласен с <a target="_blank" href="http://forum.blazar.ru/viewtopic.php?id=2">Правилами игры</a>
+						</label>
+						<span id="reg-rule-msg" class="msg"></span>
+					</div>
+					<div class="big-reg-button">
+						<input id="form_submit" alt="Зарегистрироваться" type="image" src="/images/final_reg_button.png">
+					</div>
+				</div>
+			</form>
+			<div class="choose_reg">
+				<img id="simple_reg" alt="Обычная регистрация"  src="/images/simple_reg.png" />
+				<img id="vk_reg" alt="Регистрация через ВКонтакте"  src="/images/vk_reg.png" />
+				<img id="mailru_reg" alt="Регистрация через @mail.ru"  src="/images/mailru_reg.png" />
+			</div>
+		</div>
+		<div class="preloader">Пожалуйста подождите...</div>
+		<div id="close"></div>
+	</div>
+	
+	<noscript><div class="noscript">Для работы игры необходимо включить JavaScript</div></noscript>
+
+<!-- begin of Top100 code -->
+<div style="position:absolute"><img src="http://counter.rambler.ru/top100.cnt?2199914" alt="" width="0" height="0"/></div>
+<!-- end of Top100 code -->
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "//counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet-->
+
+<!-- Yandex.Metrika counter -->
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<div style="display:none;"><script type="text/javascript">
+try { var yaCounter1129084 = new Ya.Metrika({id:1129084});}
+catch(e) { }
+</script></div>
+<noscript><div><img src="//mc.yandex.ru/watch/1129084" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7587001-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

@@ -1,0 +1,23 @@
+### 08/07/14 14:36:47
+A error has been detected
+
+Error at class java.net.BindException
+[STACK TRACE]
+    java.net.DualStackPlainSocketImpl.bind0(Native Method)
+    java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+    java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+    java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+    java.net.ServerSocket.bind(ServerSocket.java:375)
+    java.net.ServerSocket.<init>(ServerSocket.java:237)
+    java.net.ServerSocket.<init>(ServerSocket.java:128)
+    com.miker9.GUtil.IO.Network.Server.ServerCommunicator.<init>(ServerCommunicator.java:26)
+    com.miker9.GUtil.Test.NetworkTest.main(NetworkTest.java:22)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+[CAUSED BY]
+    null
+
+    Address already in use: JVM_Bind
